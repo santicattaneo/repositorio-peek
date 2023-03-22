@@ -1,0 +1,53 @@
+@media (width<992px){
+    /*HEADER*/
+    .checkbtn{
+        display: block;
+    }
+    .nav__secciones{
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+        background: #D4D4FF;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+    }
+    .nav__seccion-activa{
+        padding: 8px 5rem;
+        background-color: #5552FF;
+        color: #FFF;
+        width: 100%;
+    }
+    nav ul li{
+        display: block;
+        margin: 22px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    .servicios__categoria{
+        display: none;
+    }
+    .freelancer__especialidad{
+        display: none;
+    }
+}
+@media (width<576px){
+    .card__1, .card__2, .card__4, .card__5, .card__6, .card__7{
+        width: 233px;
+        height: 233px;
+        background-size: contain;
+    }
+    .card__3{
+        width: 305px;
+        height: 340px;
+        background-size: contain;
+    }
+    .card__3__contenido{
+        margin: 13rem 1rem 1rem 1rem;
+    }
+}

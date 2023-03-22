@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TeamPeek - Peek</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="d-flex justify-content-between align-items-center">
+                <p id="nav__logo">PEEK</p>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+                <ul class="nav__secciones">
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./equipo.html">Equipo</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a></li>
+                    <li><a class="nav__seccion-activa" href="./teampeek.html">TeamPeek</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="intro row mt-5 mb-5 g-3 d-flex align-items-center justify-content-between flex-lg-row flex-column-reverse">
+            <div class="col-lg-6 col-md-12">
+                <h1 class="me-0">¿Querés empezar a trabajar de lo que más te gusta?</h1>
+                <a class="btn-1" href="#">Llena el formulario</a>
+            </div>
+            <div class="intro__img col-lg-6 col-md-12 mt-0">
+                <img class="img-fluid" src="./img/teampeek__logo.svg" alt="team peek">
+            </div>
+        </section>
+    </div>
+
+    <div class="pregunta row justify-content-center">
+        <h2 class="col-lg-6">¿Que es TeamPeek y cual
+            es su objetivo?</h2>
+    </div>
+
+    <div class="presentacion mt-5 mb-5 container">
+        <div class="row g-3 d-flex align-items-center justify-content-center flex-xl-row flex-column-reverse">
+            <div class="col-lg-8">
+                <p>Vos trabajas, de los clientes nos ocupamos nosotros. Siendo parte del TeamPeek, tu unica procupación es mejorar tus habilidades.</p>
+            </div>
+            <div class="col-6 col-xs-2 col-lg-3">
+                <img class="img-fluid" src="./img/teampeek__trabajo.svg" alt="Diseño gráfico">
+            </div>
+        </div>
+        
+        <div class="row g-3 d-flex align-items-center justify-content-center flex-xl-row flex-column mt-2">
+            <div class="col-6 col-xs-2 col-lg-3">
+                <img class="img-fluid" src="./img/teampeek__trabajo-remoto.svg" alt="Marketing digital">
+            </div>
+            <div class="col-lg-8">
+                <p>Generá ingresos desde donde quieras. Tengas o no experiencia laboral, en Peek podes trabajar de lo que más te gusta.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h3>formulario</h3>
+        <div class="formulario">
+            <div class="formulario__contenido p-5">
+                <div class="row mb-5">
+                    <div class="col-6">
+                        <p class="mb-1">Nombre</p>
+                        <input type="text" name="nombre" id="input__nombre" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="col-6">
+                        <p class="mb-1">Apellido</p>
+                        <input type="text" name="apellido" id="input__apellido" placeholder="Ingresa tu apellido">
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <div class="col-6">
+                        <p class="mb-1">Email</p>
+                        <input type="email" name="email" id="input__email" placeholder="ejemplo@ejemplo.com">
+                    </div>
+                    <div class="col-6 redes">
+                        <p>Redes sociales</p>
+                        <ul class="lista-redes">
+                            <li><img src="./img/teampeek__formulario__linkedin.svg" alt="linkedin"></li>
+                            <li><img src="./img/teampeek__formulario__dribbble.svg" alt="dribbble"></li>
+                            <li><img src="./img/teampeek__formulario__behance.svg" alt="behance"></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <p>Areas de trabajo</p>
+                    <div class="col-12">
+                        <ul class="formulario__areas">
+                            <li>
+                                <img class="me-1" src="./img/teampeek__formulario__eliminar.svg" alt="eliminar">
+                                <p class="mb-0">UX research</p>
+                            </li>
+                            <li>
+                                <img class="me-1" src="./img/teampeek__formulario__eliminar.svg" alt="eliminar">
+                                <p class="mb-0">Desarrollo frontend</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <p>Curriculum vitae</p>
+                    <div class="col-12">
+                        <ul class="cv__cont">
+                            <li><img class="mb-3" src="./img/teampeek__formulario__archivo.svg" alt="subir archivo"></li>
+                            <li><p class="mb-1">Arrastrá tu CV</p></li>
+                            <li><a class="teampeek__formulario__btn-archivo" href="#">O seleccionalo acá</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="d-flex justify-content-end">
+                        <a class="btn-enviar me-3" href="#" class="formulario__enviar">Enviar</a>
+                        <a class="btn-enviar-freelancer" href="#" class="formulario__freelancer">Enviar como Freelancer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-5">
+        <div class="footer__contenido d-flex flex-column align-items-center">
+            <p class="footer__logo">PEEK</p>
+            <p>© 2023 Peek. Todos los derechos reservados.</p>
+            <div>
+                <a href="#"><img src="./img/footer__icono-facebook.svg" alt="Facebook"></a>
+                <a href="#"><img src="./img/footer__icono-instagram.svg" alt="Instagram"></a>
+                <a href="#"><img src="./img/footer__icono-twitter.svg" alt="Twitter"></a>
+            </div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
